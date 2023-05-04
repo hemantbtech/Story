@@ -1,0 +1,29 @@
+        chapter1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\Projectswebd\Story> git add chapter1.txt
+PS D:\Projectswebd\Story> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+PS D:\Projectswebd\Story> git commit -m "complete chapter 1"
+[master (root-commit) d8d91f4] complete chapter 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 chapter1.txt
+PS D:\Projectswebd\Story> git log
+commit d8d91f4ece5c170a3287e9048899c1761083972b (HEAD -> master)
+Author: Hemant <hemantdev94@gmail.com>
+Date:   Thu May 4 11:37:27 2023 +0530
+
+    complete chapter 1
+PS D:\Projectswebd\Story> touch chapter 2.text
+touch : The term 'touch' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ touch chapter 2.text
++ ~~~~~
